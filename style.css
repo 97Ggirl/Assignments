@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+header button{
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 7px;
+}
+main{
+  width: 725px;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  padding: 5em;
+  border-radius:2px;
+}
+p, h2, a{
+  font-family: sans-serif;
+  font-width: 1vw;
+}
+div{
+  padding: 40px;
+  border-radius: inherit;
+  font-family: "Lexend Deca", sans-serif;
+}
+ div button{
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+.sedans{
+  background-color: #e99801;
+  width: 100%;
+}
+.suvs{
+  background-color: #447979;
+  width: 100%;
+}
+.luxury{
+  background-color: #345050;
+  width: 100%;
+}
+.butsed{
+  color: #e99801;
+}
+.butsuv{
+  color: #447979;
+}
+.butlux{
+  color: #345050;
+}
+a{
+  text-decoration-line: none;
+}
+.texsed{
+  color: #f5daa8;
+}
+.texsuv{
+  color: #79d7d7;
+}
+.texlux{
+  color: #39b1b1;
+}
